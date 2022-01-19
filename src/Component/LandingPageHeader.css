@@ -1,0 +1,39 @@
+.landing-page-header {
+    box-shadow: 2px 4px rgb(0 0 0 / 5%);
+    padding: 1rem;
+}
+
+.application-logo {
+    text-decoration: none;
+}
+
+.application-logo-details {
+    font-size: 1.6rem;
+    color: white;
+}
+
+.application-tag-details {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-left: 0.5rem;
+}
+
+.navigation-bar-menu {
+    display: inline-block;
+    float: right;
+}
+
+.navigation-link {
+    padding-right: 1rem;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navigation-link:hover {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}

@@ -1,0 +1,14 @@
+.registration-form-container {
+    display: inline-block;
+    width: 50rem;
+    height: 31rem;
+    border: 0.2rem solid #ececec;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 2rem;
+    background: white;
+}
+
+.register-button {
+    margin-top: 1rem;
+}

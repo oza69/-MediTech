@@ -1,0 +1,51 @@
+.page-container {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+  background-image: linear-gradient(
+      rgba(109, 109, 109, 0.3),
+      rgba(109, 109, 109, 0.3)
+    ),
+    url("../Images/landing_page_background.jpg");
+  background-repeat: no-repeat;
+  overflow: auto;
+  min-height: 100%;
+  padding: 0px;
+  background-size: cover;
+}
+.login-form-container {
+    display: inline-block;
+    width: 50rem;
+    height: 31rem;
+    border: 0.2rem solid #ececec;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin: 2rem;
+    background: white;
+}
+
+.login-button {
+    margin-top: 1rem;
+}
+
+.required::after {
+    content: " *";
+    color: red;
+    font-weight: bold;
+}
+
+.form-control-group {
+    padding-top: 0.5rem;
+}
+
+.invalid-credentails {
+    color: red;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.register-button {
+    margin-top: 1rem;
+    float: right;
+}
